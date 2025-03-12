@@ -1,0 +1,38 @@
+{
+    "tasks": [
+      {
+        "id": 1,
+        "title": "uploadfile",
+        "description": "Task 1",
+        "status": "Pending",
+        "dueDate": "2024-03-20",
+        "priority":{
+            "level": "high",
+            "color": "red"
+        }
+      },
+      {
+        "id": 2,
+        "title": "uploadfile",
+        "description": "Task 1",
+        "status": "Pending",
+        "dueDate": "2024-03-20",
+        "priority":{
+            "level": "medium",
+            "color": "blue"
+      }
+    },
+      {
+        "id": 3,
+        "title": "uploadfile",
+        "description": "Task 1",
+        "status": "Pending",
+        "dueDate": "2024-03-20",
+        "priority":{
+            "level": "low",
+            "color": "yellow"
+      }
+    }
+    ]
+  }
+  
