@@ -27,7 +27,7 @@ class Task {
       status: json['status'] ?? '',
       dueDate: json['duedate'] ?? '',
       category: json['category'] ?? '',
-      isCompleted: json['isCompleted'] ?? false, // Ensure isCompleted is included
+      isCompleted: json['isCompleted'] ?? false,
       assignedUser: json['assignedUser'], // Add this field
     );
   }
@@ -40,7 +40,7 @@ class Task {
       'status': status,
       'duedate': dueDate,
       'category': category,
-      'isCompleted': isCompleted, // Ensure isCompleted is included
+      'isCompleted': isCompleted,
       'assignedUser': assignedUser, // Add this field
     };
   }
@@ -63,7 +63,7 @@ class Task {
       dueDate: dueDate ?? this.dueDate,
       category: category ?? this.category,
       isCompleted: isCompleted ?? this.isCompleted,
-      assignedUser: assignedUser ?? this.assignedUser,
+      assignedUser: assignedUser ?? this.assignedUser, // Add this field
     );
   }
 }
