@@ -5,7 +5,6 @@
     "description": "Resolve alignment issues on the dashboard",
     "status": "Pending",
     "duedate": "2025-04-01",
-    "category": "Development",
     "isCompleted": false,
     "assignedUser": "John Doe"
   },
@@ -13,9 +12,8 @@
     "id": "2",
     "title": "Database Optimization",
     "description": "Improve query performance and indexing",
-    "status": "In Progress",
+    "status": "Pending",
     "duedate": "2025-04-05",
-    "category": "Backend",
     "isCompleted": false,
     "assignedUser": "Jane Smith"
   },
@@ -23,9 +21,8 @@
     "id": "3",
     "title": "Update Documentation",
     "description": "Add new API endpoints and usage examples",
-    "status": "Completed",
+    "status": "Pending",
     "duedate": "2025-03-28",
-    "category": "Documentation",
     "isCompleted": true,
     "assignedUser": "Alice Johnson"
   }
